@@ -14,7 +14,7 @@ func Test_add(t *testing.T) {
 	}{
 		{
 			name: "both positive",
-			args: args{0, 3},
+			args: args{5, 3},
 			want: 8,
 		},
 		{
@@ -30,7 +30,7 @@ func Test_add(t *testing.T) {
 		{
 			name: "first negative, second positiive",
 			args: args{-5, 3},
-			want: -7,
+			want: -2,
 		},
 	}
 	for _, tt := range tests {
